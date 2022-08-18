@@ -1,0 +1,43 @@
+.pbx{
+    display: flex;
+}
+
+
+
+.bx1 , .bx2{
+    width: 50%;
+    height: 100%;
+}
+.bx2{
+    background-color: white;
+}
+.bx1{
+    background-color: rgb(201, 204, 250);
+    box-shadow: 8px 0px 5px rgb(201, 204, 250);
+    z-index: 3;
+}
+.cntr{
+    z-index:5;
+}
+.cntr h2{
+    font-size: 50px;
+    font-family: 'Uchen';
+}
+
+@media screen and (max-width:980px) {
+    .cntr h2{
+        font-size:40px ;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .cntr h2{
+        font-size:30px ;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .cntr h2{
+        font-size:20px ;
+    }
+}

@@ -1,0 +1,29 @@
+@media screen and (max-width:920px) {
+    .mediarow{
+        width: 90%;
+    }
+    .h3{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .con1{
+        width: 80%;
+    }
+    .h3{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .con1{
+        width: 90%;
+    }
+    .mediarow{
+        width: 95%;
+    }
+    .h3{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,26 @@
+.topList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:400px) {
+    .topList{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+::-webkit-scrollbar-track{
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    width: 0.1rem;
+    border-radius: 10px;
+}
